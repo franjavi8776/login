@@ -18,8 +18,20 @@
         />
     </head>
 
-    <body>
-        <h1>Bienvenidos <span id="name"></span></h1>
+    <body class="bg-secondary">
+        <div class="container ">
+            <div class="card my-5">
+                <div class="card-body p-3">
+                    <h3 class="text-center ">Bienvenidos <span id="name"></span> por favor completa tu registro</h3>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
         <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -38,8 +50,6 @@
             nombre = nombre[0].toUpperCase() + nombre.slice(1)
 
             document.getElementById("name").innerText = nombre || "al Home"
-
-
         </script>
     </body>
 </html>
